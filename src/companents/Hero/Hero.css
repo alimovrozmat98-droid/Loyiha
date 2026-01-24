@@ -1,0 +1,438 @@
+.hero__goo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.hero__img {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.hero__img:nth-child(1) {
+  z-index: 4;
+}
+
+.hero__img:nth-child(2) {
+  left: -10px;
+  z-index: 3;
+}
+
+.hero__img:nth-child(3) {
+  left: -20px;
+  z-index: 2;
+}
+
+.hero__img:nth-child(4) {
+  left: -30px;
+  z-index: 1;
+}
+
+.hero__subtitle {
+  margin-left: -18px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.hero__box__two {
+  position: relative;
+  width: 260px;
+  padding: 30px 20px;
+  background: #ecfdf5;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.hero__sutitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 14px;
+}
+
+.hero__airpods {
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.hero__sutext {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stars__one {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.stars__two {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.her__play {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero__person {
+  border-radius: 50%;
+  border: 2px solid #10B981;
+}
+
+.hero__playtext {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 60px;
+}
+
+.hero__title {
+  width: 599px;
+  height: 156px;
+  top: 389px;
+  left: 85px;
+  opacity: 1;
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.hero__text {
+  width: 549px;
+  height: 70px;
+  top: 575px;
+  left: 85px;
+  opacity: 1;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #6b7280;
+}
+
+.hero__btn {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #10B981;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.hero__btn:hover {
+  background-color: #059669;
+}
+
+@media (max-width: 1024px) {
+  .hero__container {
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 40px;
+  }
+
+  .hero__title {
+    font-size: 2.5rem;
+  }
+
+  .hero__text {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .hero__box__two {
+    width: 240px;
+    padding: 25px 18px;
+  }
+
+  .hero__airpods {
+    width: 130px;
+    height: 130px;
+  }
+
+  .hero__sutitle {
+    font-size: 15px;
+  }
+
+  .hero__sutext {
+    font-size: 16px;
+  }
+
+  .hero__img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .hero__subtitle {
+    font-size: 13px;
+  }
+
+  .hero__btn {
+    padding: 11px 18px;
+    font-size: 13px;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .hero__title {
+    font-size: 2.2rem;
+    width: auto;
+    height: auto;
+  }
+
+  .hero__text {
+    width: auto;
+    height: auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 15px;
+  }
+
+  .hero__box {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .hero__box__two {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero__goo {
+    justify-content: center;
+  }
+
+  .hero__img:nth-child(2) {
+    left: -8px;
+  }
+
+  .hero__img:nth-child(3) {
+    left: -16px;
+  }
+
+  .hero__img:nth-child(4) {
+    left: -24px;
+  }
+
+  .hero__subtitle {
+    margin-left: -15px;
+    font-size: 12px;
+  }
+
+  .hero__btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    gap: 40px;
+  }
+
+  .hero__title {
+    font-size: 1.8rem;
+  }
+
+  .hero__text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-top: 12px;
+  }
+
+  .hero__box__two {
+    padding: 20px 15px;
+    max-width: 260px;
+  }
+
+  .hero__sutitle {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .hero__airpods {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 14px;
+  }
+
+  .hero__sutext {
+    font-size: 16px;
+  }
+
+  .hero__img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .hero__img:nth-child(2) {
+    left: -6px;
+  }
+
+  .hero__img:nth-child(3) {
+    left: -12px;
+  }
+
+  .hero__img:nth-child(4) {
+    left: -18px;
+  }
+
+  .hero__subtitle {
+    margin-left: -12px;
+    font-size: 11px;
+  }
+
+  .hero__btn {
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .her__play {
+    margin-top: 15px;
+  }
+
+  .hero__person {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hero__playtext {
+    font-size: 13px;
+  }
+
+  .stars__one,
+  .stars__two {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero__title {
+    font-size: 1.6rem;
+  }
+
+  .hero__text {
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+
+  .hero__box__two {
+    max-width: 240px;
+    padding: 18px 12px;
+  }
+
+  .hero__sutitle {
+    font-size: 13px;
+  }
+
+  .hero__airpods {
+    width: 110px;
+    height: 110px;
+  }
+
+  .hero__img {
+    width: 24px;
+    height: 24px;
+    border-width: 1.5px;
+  }
+
+  .hero__goo {
+    margin-top: 15px;
+  }
+
+  .hero__btn {
+    padding: 9px 18px;
+    font-size: 12px;
+  }
+
+  .hero__person {
+    width: 32px;
+    height: 32px;
+  }
+
+  .hero__playtext {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero__title {
+    font-size: 1.4rem;
+  }
+
+  .hero__text {
+    font-size: 0.8rem;
+  }
+
+  .hero__box__two {
+    max-width: 220px;
+    padding: 16px 10px;
+  }
+
+  .hero__airpods {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero__img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .hero__subtitle {
+    font-size: 10px;
+  }
+
+  .hero__btn {
+    padding: 8px 16px;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero__container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

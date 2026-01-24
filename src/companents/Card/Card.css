@@ -1,0 +1,361 @@
+.card__item {
+    width: 250px;
+    height: 330px;
+    position: relative;
+    background: #E0EFFF; 
+    border-radius: 20px;
+    padding: 24px 20px 28px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-top: 50px;
+}
+
+.card__item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.2);
+}
+
+.card__img {
+    display: block;
+    margin: 0 auto 12px;
+}
+
+.card__image {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 6px;
+}
+
+.card__text {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 12px;
+}
+
+.card__b {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.card__btn {
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: none;
+    background-color: #10B981;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card__btn:hover {
+    background-color: #059669;
+}
+
+.card__sutitle {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.card__btntn {
+    padding: 12px 22px;
+    border-radius: 30px;
+    border: none;
+    background-color: #10B981;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card__btntn:hover {
+    background-color: #059669;
+}
+
+.card__btttn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    gap: 20px;
+}
+
+.card__item-two {
+    width: 250px;
+    height: 330px;
+    position: relative;
+    background: #E8F9FF; 
+    border-radius: 20px;
+    padding: 24px 20px 28px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-top: 50px;
+}
+
+.card__item-two:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.2);
+}
+
+.card__item-there {
+    width: 250px;
+    height: 330px;
+    position: relative;
+    background: #D3FBFB; 
+    border-radius: 20px;
+    padding: 24px 20px 28px;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-top: 50px;
+}
+
+.card__item-there:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.2);
+}
+
+.card__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+@media (max-width: 1024px) {
+    .card__list {
+        gap: 30px;
+    }
+    
+    .card__item,
+    .card__item-two,
+    .card__item-there {
+        width: 220px;
+        height: 310px;
+        margin-top: 30px;
+    }
+    
+    .card__sutitle {
+        font-size: 2.2rem;
+        margin-top: 50px;
+    }
+    
+    .card__img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .card__title {
+        font-size: 16px;
+    }
+    
+    .card__text {
+        font-size: 13px;
+    }
+    
+    .card__b {
+        font-size: 18px;
+    }
+    
+    .card__btn {
+        padding: 9px 20px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card__list {
+        gap: 25px;
+    }
+    
+    .card__item,
+    .card__item-two,
+    .card__item-there {
+        width: 200px;
+        height: 290px;
+        padding: 20px 16px 24px;
+        margin-top: 25px;
+    }
+    
+    .card__sutitle {
+        font-size: 2rem;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    
+    .card__btttn {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 0 20px;
+    }
+    
+    .card__btntn {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    .card__img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .card__image {
+        width: 28px;
+        height: 28px;
+        top: 14px;
+        right: 14px;
+        padding: 5px;
+    }
+    
+    .card__btn {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card__list {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0 15px;
+    }
+    
+    .card__item,
+    .card__item-two,
+    .card__item-there {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        min-height: 320px;
+        margin-top: 0;
+    }
+    
+    .card__sutitle {
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+    
+    .card__btttn {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-top: 25px;
+        padding: 0 15px;
+    }
+    
+    .card__btntn {
+        width: 180px;
+        padding: 11px;
+    }
+    
+    .card__container {
+        padding: 0 10px;
+    }
+    
+    .card__img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .card__title {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    
+    .card__text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .card__b {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+    
+    .card__btn {
+        width: 85%;
+        max-width: 200px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .card__sutitle {
+        font-size: 1.6rem;
+        padding: 0 10px;
+    }
+    
+    .card__item,
+    .card__item-two,
+    .card__item-there {
+        max-width: 260px;
+        padding: 18px 15px 22px;
+        min-height: 310px;
+    }
+    
+    .card__img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .card__image {
+        width: 26px;
+        height: 26px;
+        top: 12px;
+        right: 12px;
+    }
+    
+    .card__title {
+        font-size: 16px;
+    }
+    
+    .card__text {
+        font-size: 13px;
+    }
+    
+    .card__b {
+        font-size: 18px;
+    }
+    
+    .card__btn {
+        padding: 9px 16px;
+        font-size: 13px;
+    }
+    
+    .card__btntn {
+        width: 160px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card__container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .card__list {
+        gap: 50px;
+    }
+}
